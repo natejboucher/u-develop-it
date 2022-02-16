@@ -1,14 +1,15 @@
 {
   "dependencies": {
-    "jest": "^27.5.1"
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3"
   },
   "name": "u-develop-it",
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/natejboucher/u-develop-it/issues"
   },
-  "homepage": "https://github.com/natejboucher/u-develop-it#readme"
+  "homepage": "https://github.com/natejboucher/u-develop-it#readme",
+  "keywords": [],
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
